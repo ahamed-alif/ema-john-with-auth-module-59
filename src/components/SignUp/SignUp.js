@@ -26,7 +26,7 @@ const SignUp = () => {
   }
 
   if(user){
-    navigate('/inventory')
+    navigate('/')
   }
 
   const handleCreateUser = event => {
